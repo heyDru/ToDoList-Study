@@ -71,7 +71,7 @@ ListTodos.prototype.getList = function () {
     $todo.append($todoCellActions);
     $todosBody.append($todo);
 
-    //////edit btn 
+    //edit btn 
 
     var $todoActionEdit = $('<button type="button"/>');
     $todoActionEdit.addClass('btn btn-info btn-xs')
