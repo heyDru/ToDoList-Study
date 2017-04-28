@@ -1,0 +1,27 @@
+
+<div id="div">
+  <a href="/a">Click A</a>
+  <a href="b" target="_blank">Click B</a>
+</div>
+
+<script src="vendors/jquery/jquery.js"></script>
+<script>
+  $(document).ready(function() {
+    // var div = document.getElementById('div');
+    // Move();
+    // function Move() {
+    //   setTimeout(function() {
+        
+    //     var m = parseInt(div.style.marginLeft) || 0;
+
+    //     // console.log(m);
+    //     div.style.marginLeft = m + 1 + 'px';
+    //     Move();
+    //   }, 50);
+    // }
+
+    $('#div').animate({marginLeft: '600px', marginTop: '600px'}, 5000, function() {
+      $('#div').animate({marginLeft: '0px', marginTop: '0px'}, 5000);
+    });
+  });
+</script>

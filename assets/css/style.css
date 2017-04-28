@@ -1,0 +1,69 @@
+
+img {
+  width: 100%;
+}
+
+
+
+.page {
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
+}
+
+header {
+
+}
+
+header a img {
+  height: 100px;
+  width: auto;
+}
+
+aside {
+  width: 200px;
+  float: left;
+}
+
+.content {
+  margin-left: 200px;
+}
+
+.content h1 {
+  background-color: #f00;
+}
+
+.footer {
+  clear: both;
+}
+
+.page-frame {
+  display: block;
+  border: 2px solid #666;
+  padding: 10px 10px 60px;
+  border-radius: 10px;
+  height: 500px;
+  width: 320px;
+  margin: 10px auto 10px;
+  background: #999 url(../images/button-on.png) no-repeat 50% 443px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.5);
+}
+
+
+/* TODO */
+
+#todo_add {
+  margin: 10px 0;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.changeBtnClass {
+  background:rgba(142,97,243,0.9) 
+}
+
+.changeFieldClass{
+  background-color:rgba(142,97,243,0.3) 
+}
